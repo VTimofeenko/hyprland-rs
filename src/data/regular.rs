@@ -481,6 +481,8 @@ pub struct Bind {
     pub key: String,
     /// The keycode
     pub keycode: i16,
+    /// Description of the keybind. Empty string if not set.
+    pub description: String,
     /// The dispatcher to be executed
     pub dispatcher: String,
     /// The dispatcher arg
